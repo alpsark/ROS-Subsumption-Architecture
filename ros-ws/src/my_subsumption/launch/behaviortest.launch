@@ -1,0 +1,4 @@
+<launch>
+  <param name="use_sim_time" type="bool" value="true" />
+  <node name="my_subsumption" pkg="my_subsumption" type="my_subsumption" output="screen" />
+</launch>
